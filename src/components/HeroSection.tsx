@@ -2,7 +2,7 @@
 import React from "react";
 import { cn } from "@/utils/cn";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
-import { Button } from "./ui/moving-border";
+// import { Button } from "./ui/moving-border";
 import Link from "next/link";
 
 function HeroSection() {
@@ -42,12 +42,11 @@ function HeroSection() {
         </p>
         <div className="mt-16">
           <Link href={"/contact-us"}>
-            <Button
-            borderRadius="1.75rem"
-            className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            <button
+            className="rounded bg-blue-500 hover:bg-blue-600 text-white box-border py-3 px-8 border-neutral-200 dark:border-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 hover:ring-4 hover:ring-blue-300 transition ease-in-out duration-150"
             >
               Contact Us
-            </Button>
+            </button>
           </Link>
         </div>
       </div>

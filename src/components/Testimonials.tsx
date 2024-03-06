@@ -7,7 +7,9 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 export function Testimonials() {
   return (
     <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <p className="text-blue-500 text-3xl font-bold mb-16 md:text-5xl ">Testimonials</p>
+      <p className="text-3xl font-bold mb-16 md:text-5xl">
+        <span className="text-blue-500">Testim</span><span className="text-white">onials</span>
+      </p>
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
